@@ -1,0 +1,10 @@
+../Core/Src/freertos.c:81:6:vApplicationGetIdleTaskMemory	24	static
+../Core/Src/freertos.c:95:6:MX_FREERTOS_Init	120	static
+../Core/Src/freertos.c:149:6:StartAudioTask	16	static
+../Core/Src/freertos.c:169:6:auxTaskStart	24	static
+../Core/Src/freertos.c:223:6:StartFlashAliveTask	16	static
+../Core/Src/freertos.c:275:7:CopyBuffer	32	static
+../Core/Src/freertos.c:337:6:BufferHandling	24	static
+../Core/Src/freertos.c:384:10:BSP_AUDIO_OUT_HalfTransfer_CallBack	4	static
+../Core/Src/freertos.c:397:10:BSP_AUDIO_IN_TransferComplete_CallBack	8	static
+../Core/Src/freertos.c:409:10:BSP_AUDIO_IN_HalfTransfer_CallBack	8	static

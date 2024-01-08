@@ -1,0 +1,6 @@
+../Core/Inc/CircBuffer.hpp:15:3:DelayBuffer::DelayBuffer(uint16_t)	24	static
+../Core/Inc/BasicChorus.hpp:43:10:int16_t ChorusBlock::xFadeLin(float, int16_t, int16_t)	24	static
+../Core/Src/BasicChorus.cpp:11:1:ChorusBlock::ChorusBlock(float, uint16_t)	24	static
+../Core/Src/BasicChorus.cpp:17:9:int16_t ChorusBlock::process(int16_t)	64	static
+../Core/Src/BasicChorus.cpp:42:6:void ChorusBlock::setRate(float)	16	static
+../Core/Src/BasicChorus.cpp:47:6:void ChorusBlock::setDepth(float)	16	static

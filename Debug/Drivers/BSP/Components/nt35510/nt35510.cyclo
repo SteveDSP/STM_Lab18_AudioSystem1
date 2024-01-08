@@ -1,0 +1,2 @@
+../Drivers/BSP/Components/nt35510/nt35510.c:79:9:NT35510_Init	4
+../Drivers/BSP/Components/nt35510/nt35510.c:228:9:NT35510_DeInit	1

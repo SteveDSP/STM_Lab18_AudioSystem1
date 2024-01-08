@@ -1,0 +1,5 @@
+../Core/Src/Filter.cpp:3:6:void Filter::prewarp(float, float)	4
+../Core/Src/Filter.cpp:20:7:float Filter::getwc()	1
+../Core/Src/Filter.cpp:26:7:float Filter::getT()	1
+../Core/Src/Filter.cpp:32:6:void Filter::reset()	2
+../Core/Src/Filter.cpp:41:7:float Filter::process(float)	4

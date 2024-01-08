@@ -1,0 +1,3 @@
+../Core/Src/dsihost.c:31:6:MX_DSIHOST_DSI_Init	10
+../Core/Src/dsihost.c:135:6:HAL_DSI_MspInit	2
+../Core/Src/dsihost.c:167:6:HAL_DSI_MspDeInit	2
