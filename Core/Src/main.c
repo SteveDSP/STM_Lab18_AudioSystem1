@@ -295,7 +295,7 @@ int main(void)
   BSP_LCD_SetBackColor(LCD_COLOR_TRANSPARENT); //ditto
   BSP_LCD_SetTextColor(LCD_COLOR_WHITE);
   BSP_LCD_SetFont(&Font24);
-  BSP_LCD_DisplayStringAt(0,LINE(2) , (uint8_t *)"Running Lab 18 1.0", CENTER_MODE);
+  BSP_LCD_DisplayStringAt(0,LINE(2) , (uint8_t *)"Running Demo 1.0", CENTER_MODE);
   BSP_LCD_DisplayStringAt(0,LINE(3) , (uint8_t *)"Audio with Basic Tremolo Effect", CENTER_MODE);
 
   //BSP_LCD_SelectLayer(1); //Makes 1 the active layer for the box drawing..

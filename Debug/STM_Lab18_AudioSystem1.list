@@ -4232,7 +4232,7 @@ int main(void)
   BSP_LCD_SetFont(&Font24);
  8001d1e:	4827      	ldr	r0, [pc, #156]	; (8001dbc <main+0x1b4>)
  8001d20:	f003 fc5c 	bl	80055dc <BSP_LCD_SetFont>
-  BSP_LCD_DisplayStringAt(0,LINE(2) , (uint8_t *)"Running Lab 18 1.0", CENTER_MODE);
+  BSP_LCD_DisplayStringAt(0,LINE(2) , (uint8_t *)"Running Demo 1.0", CENTER_MODE);
  8001d24:	f003 fc74 	bl	8005610 <BSP_LCD_GetFont>
  8001d28:	4603      	mov	r3, r0
  8001d2a:	88db      	ldrh	r3, [r3, #6]
