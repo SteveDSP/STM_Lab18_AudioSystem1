@@ -18,3 +18,8 @@ USE_HAL_DRIVER
 STM32F769xx
 
 The Demo performs a CPP implementation of a Tremolo effect. More effects can easily be added by using the the Tremolo Class Example.
+
+Walkthrough video is here:
+
+https://youtu.be/E3a-ASKDnXk
+
