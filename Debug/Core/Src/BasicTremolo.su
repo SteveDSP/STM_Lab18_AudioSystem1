@@ -1,4 +1,4 @@
 ../Core/Src/BasicTremolo.cpp:12:1:TREMBlock::TREMBlock()	16	static
 ../Core/Src/BasicTremolo.cpp:22:7:float TREMBlock::process(float)	32	static
-../Core/Src/BasicTremolo.cpp:35:6:void TREMBlock::setRate(float)	16	static
-../Core/Src/BasicTremolo.cpp:40:6:void TREMBlock::setDepth(float)	16	static
+../Core/Src/BasicTremolo.cpp:51:6:void TREMBlock::setRate(float)	16	static
+../Core/Src/BasicTremolo.cpp:56:6:void TREMBlock::setDepth(float)	16	static

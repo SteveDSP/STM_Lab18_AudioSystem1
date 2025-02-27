@@ -197,7 +197,7 @@ void auxTaskStart(void const * argument)
 
 		  //For the Tremolo, interesting effects, 1000 and 2 for below. :)
 		  coeffOne = coeffOne * 200; // test mod depth 0..200
-		  coeffTwo = coeffTwo * 20;  // test rate 0..200
+		  coeffTwo = coeffTwo * 20;  // test rate 0..20
 
 
 

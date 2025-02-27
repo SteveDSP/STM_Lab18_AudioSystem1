@@ -1,9 +1,13 @@
 ################################################################################
 # Automatically-generated file. Do not edit!
-# Toolchain: GNU Tools for STM32 (11.3.rel1)
+# Toolchain: GNU Tools for STM32 (12.3.rel1)
 ################################################################################
 
 # Add inputs and outputs from these tool invocations to the build variables 
+CPP_SRCS += \
+../Core/Src/AudioProcess.cpp \
+../Core/Src/BasicTremolo.cpp 
+
 C_SRCS += \
 ../Core/Src/dfsdm.c \
 ../Core/Src/dma2d.c \
@@ -22,10 +26,6 @@ C_SRCS += \
 ../Core/Src/sysmem.c \
 ../Core/Src/system_stm32f7xx.c \
 ../Core/Src/usart.c 
-
-CPP_SRCS += \
-../Core/Src/AudioProcess.cpp \
-../Core/Src/BasicTremolo.cpp 
 
 C_DEPS += \
 ./Core/Src/dfsdm.d \

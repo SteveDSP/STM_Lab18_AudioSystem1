@@ -136,6 +136,10 @@ float coeffTwo = 0.5; //Default float value
 float coeffOne_inc = 1/480.0f; //inc, based on size of LCD
 float coeffTwo_inc = 1/800.0f; //Ditto
 
+/* random number test */
+uint32_t random_x = 0;
+
+
 //int16_t bufferNumber=0; //FlipBuffers
 
 int16_t CurrentLsample, CurrentRsample;
@@ -295,7 +299,7 @@ int main(void)
   BSP_LCD_SetBackColor(LCD_COLOR_TRANSPARENT); //ditto
   BSP_LCD_SetTextColor(LCD_COLOR_WHITE);
   BSP_LCD_SetFont(&Font24);
-  BSP_LCD_DisplayStringAt(0,LINE(2) , (uint8_t *)"Running Demo 1.0", CENTER_MODE);
+  BSP_LCD_DisplayStringAt(0,LINE(2) , (uint8_t *)"Running Demo 1.1", CENTER_MODE);
   BSP_LCD_DisplayStringAt(0,LINE(3) , (uint8_t *)"Audio with Basic Tremolo Effect", CENTER_MODE);
 
   //BSP_LCD_SelectLayer(1); //Makes 1 the active layer for the box drawing..
@@ -314,6 +318,9 @@ int main(void)
   OnError_Handler(ts_status != TS_OK);
 
 
+  //Generate random number
+  srandom(12345); //seed
+  random_x = random();        // returns a random number
 
   // Setup
   AUDIO_SETUP();
